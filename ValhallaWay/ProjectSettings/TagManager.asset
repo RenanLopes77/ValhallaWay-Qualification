@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Floor
   - Vine
+  - Hazard
   layers:
   - Default
   - TransparentFX
