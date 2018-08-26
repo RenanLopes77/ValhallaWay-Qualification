@@ -8,7 +8,6 @@ public class Health : MonoBehaviour {
     [HideInInspector]
     public float maxHP = 10;
     public bool isInvencible = false;
-    //fazer corotina para deixar invencivel por x segundos após tomar dano
 
     public float HP {
         get {
@@ -37,10 +36,8 @@ public class Health : MonoBehaviour {
 
     private IEnumerator SetInvencible(float time) {
         isInvencible = true;
-        Debug.Log("Invencivel!");
         yield return new WaitForSeconds(time);
         isInvencible = false;
-        Debug.Log("Normal");
 
     }
 }
