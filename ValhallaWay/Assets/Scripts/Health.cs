@@ -22,8 +22,8 @@ public class Health : MonoBehaviour {
 
     public void DealDamage(float damage) {
         if (!isInvencible) {
+            StartCoroutine(SetInvencible(1f));
             hp -= damage;
-            isInvencible = true;
         }
     }
 
@@ -33,5 +33,14 @@ public class Health : MonoBehaviour {
         } else {
             hp += cureAmount;
         }
+    }
+
+    private IEnumerator SetInvencible(float time) {
+        isInvencible = true;
+        Debug.Log("Invencivel!");
+        yield return new WaitForSeconds(time);
+        isInvencible = false;
+        Debug.Log("Normal");
+
     }
 }
