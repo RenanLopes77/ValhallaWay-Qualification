@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class Climb : MonoBehaviour
 {
-	private CharacterController characterController;
+	private CustomCharacterController customCharacterController;
 
-	public CharacterController CharacterController
+	public CustomCharacterController CustomCharacterController
 	{
-		get { return characterController; }
-		set { characterController = value; }
+		get { return customCharacterController; }
+		set { customCharacterController = value; }
 	}
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		CharacterController.CanClimb(true);
+		CustomCharacterController.CanClimb(true);
 	}
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
-		CharacterController.CanClimb(false);
+		CustomCharacterController.CanClimb(false);
 	}
 }

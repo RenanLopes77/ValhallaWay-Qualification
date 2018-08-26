@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : CharacterController
+public class PlayerController : CustomCharacterController
 {
 
 	private InputController input;
@@ -34,7 +34,7 @@ public class PlayerController : CharacterController
 	// Update is called once per frame
 	void Update ()
 	{
-		if (input.IsJumpPressed())
+        if (input.IsJumpPressed())
 		{
 			if (movement.IsClimbing)
 			{
@@ -46,5 +46,6 @@ public class PlayerController : CharacterController
 			}
 		}
 		movement.Move(input.GetDirection());
-	}
+        base.UpdateAnimationDirection();
+    }
 }

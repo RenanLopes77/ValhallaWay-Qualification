@@ -479,6 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2df11961065f9074096169d102f8915d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 1012351372}
   WalkingSpeed: 400
   ClimbingSpeed: 300
   JumpingSpeed: 700

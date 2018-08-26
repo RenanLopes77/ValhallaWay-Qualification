@@ -66,4 +66,8 @@ public class Movement : MonoBehaviour
 			);	
 		}
 	}
+
+    public float GetCurrentSpeed() {
+        return rb2d.velocity.x;
+    }
 }
