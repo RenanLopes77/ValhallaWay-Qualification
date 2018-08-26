@@ -3,6 +3,7 @@
 public class JumpController : MonoBehaviour
 {
     public bool DoubleJumpEnabled;
+    [HideInInspector]
     public float JumpSpeed;
     
     private bool canJump;

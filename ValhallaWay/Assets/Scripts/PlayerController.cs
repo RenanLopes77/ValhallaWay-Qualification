@@ -8,12 +8,23 @@ public class PlayerController : CharacterController
 	private InputController input;
 	private JumpController jump;
 
-	private void Awake()
-	{
+    [Header("Speed Variables")]
+    public float WalkingSpeed;
+    public float ClimbingSpeed;
+    public float JumpingSpeed;
+
+#pragma warning disable CS0108 // O membro oculta o membro herdado; palavra-chave new ausente
+    private void Awake()
+#pragma warning restore CS0108 // O membro oculta o membro herdado; palavra-chave new ausente
+    {
 		base.Awake();
 		jump = GetComponent<JumpController>();
 		input = new InputController();
-	}
+
+        movement.Speed = WalkingSpeed;
+        movement.ClimbSpeed = ClimbingSpeed;
+        jump.JumpSpeed = JumpingSpeed;
+}
 
 	// Use this for initialization
 	void Start () {

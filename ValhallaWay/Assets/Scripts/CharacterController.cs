@@ -7,8 +7,8 @@ public class CharacterController : MonoBehaviour {
 	protected Movement movement;
 	protected Health health;
 	protected Climb climb;
-
-	protected void Awake () {
+    
+    protected void Awake () {
 		climb = GetComponent<Climb>();
 		health = GetComponent<Health>();
 		movement = GetComponent<Movement>();

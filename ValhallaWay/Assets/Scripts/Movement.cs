@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-	public float Speed;
-	public float ClimbSpeed;
+    [HideInInspector]
+    public float Speed;
+    [HideInInspector]
+    public float ClimbSpeed;
 	private bool isClimbing;
 
 	public bool IsClimbing
