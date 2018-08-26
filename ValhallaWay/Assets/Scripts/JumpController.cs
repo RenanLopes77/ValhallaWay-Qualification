@@ -46,14 +46,4 @@ public class JumpController : MonoBehaviour
             canDoubleJump = true;
         }
     }
-
-//    private void OnTriggerEnter2D(Collider2D other)
-//    {
-//        if (transform.CompareTag("Vine"))
-//        {
-//            onGround = true;
-//            canJump = true;
-//            canDoubleJump = true;
-//        }
-//    }
 }

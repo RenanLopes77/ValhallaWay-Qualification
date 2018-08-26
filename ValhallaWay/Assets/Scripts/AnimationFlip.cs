@@ -13,7 +13,7 @@ public class AnimationFlip : MonoBehaviour {
             spriteRenderer.flipX = !facingRight;
         }
 
-        if (speed > 0 && !facingRight) {
+        else if (speed > 0 && !facingRight) {
             facingRight = true;
             spriteRenderer.flipX = !facingRight;
         }
