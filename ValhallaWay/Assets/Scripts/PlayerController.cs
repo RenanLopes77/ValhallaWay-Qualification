@@ -56,7 +56,14 @@ public class PlayerController : CustomCharacterController
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.transform.CompareTag("Hazard")) {
-            health.DealDamage(collision.transform.GetComponent<DamageAssist>().Damage);
+            health.DealDamage(collision.transform.GetComponent<HealthAssist>().Value);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if (other.transform.CompareTag("Health")) {
+            health.Heal(other.transform.GetComponent<HealthAssist>().Value);
+            Destroy(other.gameObject);
         }
     }
 }

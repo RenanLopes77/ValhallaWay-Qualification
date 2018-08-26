@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - Vine
   - Hazard
+  - Health
   layers:
   - Default
   - TransparentFX

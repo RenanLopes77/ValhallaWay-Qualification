@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageAssist : MonoBehaviour {
-    public float Damage = 1f;
-	
+public class HealthAssist : MonoBehaviour {
+    public float Value = 1f;
 }
