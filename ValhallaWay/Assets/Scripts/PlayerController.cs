@@ -52,7 +52,7 @@ public class PlayerController : CustomCharacterController
         base.UpdateAnimationDirection();
         base.UpdateAnimatorSpeed(movement.GetCurrentSpeed());
     }
-
+        
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.transform.CompareTag("Hazard")) {
             health.DealDamage(collision.transform.GetComponent<HealthAssist>().Value);

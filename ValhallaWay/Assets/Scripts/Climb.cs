@@ -14,11 +14,15 @@ public class Climb : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		CustomCharacterController.CanClimb(true);
+        if (other.transform.CompareTag("Vine")) {
+            CustomCharacterController.CanClimb(true);
+        }
 	}
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
-		CustomCharacterController.CanClimb(false);
+        if (other.transform.CompareTag("Vine")) {
+            CustomCharacterController.CanClimb(false);
+        }
 	}
 }
