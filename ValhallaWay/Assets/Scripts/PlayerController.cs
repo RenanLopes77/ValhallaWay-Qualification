@@ -31,12 +31,10 @@ public class PlayerController : CustomCharacterController
         health.maxHP = HP;
     }
 
-	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update ()
 	{
         if (input.IsJumpPressed())
@@ -52,6 +50,7 @@ public class PlayerController : CustomCharacterController
 		}
 		movement.Move(input.GetDirection());
         base.UpdateAnimationDirection();
+        base.UpdateAnimatorSpeed(movement.GetCurrentSpeed());
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
