@@ -37,13 +37,8 @@ public class JumpController : MonoBehaviour
         rb2d.AddForce(new Vector2(0, JumpSpeed));
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.transform.CompareTag("Floor"))
-        {
-            onGround = true;
-            canJump = true;
-            canDoubleJump = true;
-        }
+    public void ArrivedOnGround() {
+        onGround = true;
+        canJump = true;
     }
 }

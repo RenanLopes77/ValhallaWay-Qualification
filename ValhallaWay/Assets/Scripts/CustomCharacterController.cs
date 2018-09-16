@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CustomCharacterController : MonoBehaviour {
 
-    public SpriteRenderer spriteRenderer;
 	protected Movement movement;
 	protected Health health;
 	protected Climb climb;
     protected AnimationFlip animationFlip;
+    public Animator anim;
 
     protected void Awake () {
 		climb = GetComponent<Climb>();
@@ -16,7 +16,6 @@ public class CustomCharacterController : MonoBehaviour {
 		movement = GetComponent<Movement>();
 
         animationFlip = gameObject.AddComponent<AnimationFlip>();
-        animationFlip.spriteRenderer = spriteRenderer;
 
 		climb.CustomCharacterController = this;
 	}
@@ -28,5 +27,9 @@ public class CustomCharacterController : MonoBehaviour {
 
     public void UpdateAnimationDirection() { 
         animationFlip.TestFlip(movement.GetCurrentSpeed());
+    }
+
+    public void UpdateAnimatorSpeed(float speed) {
+        anim.SetFloat("x-speed", speed);
     }
 }
