@@ -18,7 +18,6 @@ public class OWAvatarController : MonoBehaviour {
 
     private void Update() {
         if (moving) {
-            Debug.Log("Moving");
             avatarN0.transform.position = Vector3.MoveTowards(avatarN0.transform.position, destination, avatarN0Speed * Time.deltaTime);
             if(Vector3.Distance(avatarN0.transform.position, destination) <= 0.1f) {
                 avatarN0.transform.position = destination;
