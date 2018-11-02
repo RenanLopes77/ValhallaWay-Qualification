@@ -3055,10 +3055,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1570188220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3aed20c64a959b84e9366804e629d70f, type: 3}
+  m_Script: {fileID: 11500000, guid: 31988bb622984364e8c84b6985450f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainMenu: {fileID: 455038572}
+  sceneSelectors:
+  - button: {fileID: 455038572}
+    name: 2
 --- !u!4 &1570188222
 Transform:
   m_ObjectHideFlags: 0
