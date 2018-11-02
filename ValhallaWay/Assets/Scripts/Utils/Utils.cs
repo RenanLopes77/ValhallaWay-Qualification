@@ -9,7 +9,7 @@ public static class Utils {
         UP,
     }
 
-    public enum Scenes
+    public enum ScenesNames
     {
         Null,
         Credits,

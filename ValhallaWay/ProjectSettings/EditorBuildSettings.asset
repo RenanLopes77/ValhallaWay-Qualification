@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main_Menu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: f7347bdd7b0946c438303d15e3aa6b92
   - enabled: 1
-    path: Assets/Scenes/1-1.unity
+    path: Assets/Scenes/Midgard.unity
     guid: 9d3df19a47ffc1249b58cee56b310123
   - enabled: 1
     path: Assets/Scenes/Credits.unity
