@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.4, y: -136.6}
-  m_SizeDelta: {x: 460.8, y: 50}
+  m_AnchoredPosition: {x: 163.9, y: -189.675}
+  m_SizeDelta: {x: 327.8, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &232261108
 MonoBehaviour:
@@ -318,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 301889487}
-  - component: {fileID: 301889486}
+  - component: {fileID: 301889488}
   m_Layer: 0
   m_Name: MenuController
   m_TagString: Untagged
@@ -326,20 +326,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &301889486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 301889485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37c2f9a3a1978184da74ab015b697096, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NewGameButton: {fileID: 232261108}
-  SettingsButton: {fileID: 2030018861}
-  CreditsButton: {fileID: 778307817}
 --- !u!4 &301889487
 Transform:
   m_ObjectHideFlags: 0
@@ -353,6 +339,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &301889488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301889485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31988bb622984364e8c84b6985450f3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneSelectors:
+  - button: {fileID: 232261108}
+    name: 3
+  - button: {fileID: 2030018861}
+    name: 0
+  - button: {fileID: 778307817}
+    name: 1
 --- !u!1 &778307815
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,8 +390,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.4, y: -276.6}
-  m_SizeDelta: {x: 460.8, y: 50}
+  m_AnchoredPosition: {x: 163.9, y: -435.825}
+  m_SizeDelta: {x: 327.8, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &778307817
 MonoBehaviour:
@@ -936,8 +940,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.4, y: 0}
-  m_SizeDelta: {x: 460.8, y: 116.6}
+  m_AnchoredPosition: {x: 163.9, y: 0}
+  m_SizeDelta: {x: 327.8, y: 116.6}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2019109957
 MonoBehaviour:
@@ -1003,7 +1007,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 9
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1031,7 +1035,7 @@ MonoBehaviour:
     spaceCount: 1
     wordCount: 2
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -1092,8 +1096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 230.4, y: -206.6}
-  m_SizeDelta: {x: 460.8, y: 50}
+  m_AnchoredPosition: {x: 163.9, y: -312.75}
+  m_SizeDelta: {x: 327.8, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2030018859
 MonoBehaviour:

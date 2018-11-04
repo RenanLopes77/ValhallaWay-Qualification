@@ -5,17 +5,16 @@ using UnityEngine;
 public class AnimationFlip : MonoBehaviour {
 
     private bool facingRight = true;
-    public SpriteRenderer spriteRenderer;
 
     public void TestFlip(float speed) {
         if (speed < 0 && facingRight) {
             facingRight = false;
-            spriteRenderer.flipX = !facingRight;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
 
         else if (speed > 0 && !facingRight) {
             facingRight = true;
-            spriteRenderer.flipX = !facingRight;
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 	
