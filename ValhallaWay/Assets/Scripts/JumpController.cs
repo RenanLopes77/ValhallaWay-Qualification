@@ -23,6 +23,7 @@ public class JumpController : MonoBehaviour
             Jump();
             canJump = false;
             onGround = false;
+            canDoubleJump = true;
         }
         else if (DoubleJumpEnabled && !onGround && canDoubleJump)
         {
@@ -40,5 +41,6 @@ public class JumpController : MonoBehaviour
     public void ArrivedOnGround() {
         onGround = true;
         canJump = true;
+        canDoubleJump = false;
     }
 }
