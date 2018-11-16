@@ -2,39 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6105befd-e250-4c3a-8b4c-0a7299b1555a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ValhallaWay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Credits.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Animation_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Animation_scene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Animation_scene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Midgard.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Midgard.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/SceneSelection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/SceneSelection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,43 +22,70 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="126" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="126" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="50">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
-                <marker date="1541180339055" expanded="false" signature="6:59" ph="..." />
-                <marker date="1541180339055" expanded="true" signature="87:304" ph="{...}" />
-                <marker date="1541180339055" expanded="true" signature="115:177" ph="{...}" />
-                <marker date="1541180339055" expanded="true" signature="206:302" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="6:57" ph="..." />
+                <marker date="1542374162347" expanded="true" signature="94:936" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="291:440" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="305:339" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="353:434" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="483:602" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="512:596" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="643:769" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="681:716" ph="{...}" />
+                <marker date="1542374162347" expanded="true" signature="821:934" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SceneManager.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/JumpController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding>
-                <marker date="1541185244794" expanded="true" signature="6:54" ph="..." />
-                <marker date="1541185244794" expanded="true" signature="97:156" ph="{...}" />
-                <marker date="1541185244794" expanded="true" signature="200:716" ph="{...}" />
-                <marker date="1541185244794" expanded="true" signature="282:307" ph="{...}" />
-                <marker date="1541185244794" expanded="true" signature="339:714" ph="{...}" />
-                <marker date="1541185244794" expanded="true" signature="393:709" ph="{...}" />
-                <marker date="1541185244794" expanded="true" signature="447:644" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="63:971" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="296:352" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="383:702" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="422:555" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="621:696" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="727:846" ph="{...}" />
+                <marker date="1542373565131" expanded="true" signature="882:969" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,10 +97,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../UnityTesting/Assets/Math.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../UnityTesting/Assets/Editor/Test.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../UnityTesting/Assets/Math.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../UnityTesting/Assets/Editor/Test.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JumpController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,6 +112,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/SceneManager.Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       </list>
     </option>
   </component>
@@ -125,32 +131,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ValhallaWay" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="ValhallaWay" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -200,11 +184,12 @@
       <workItem from="1541179483873" duration="2742000" />
       <workItem from="1541184112158" duration="877000" />
       <workItem from="1541185119919" duration="117000" />
+      <workItem from="1542371402608" duration="3346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8319000" />
+    <option name="totallyTimeSpent" value="11665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,31 +264,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Editor/SceneManager.Test.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Utils.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SceneManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/JumpController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="713">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
-            <marker date="1541180339055" expanded="false" signature="6:59" ph="..." />
-            <marker date="1541180339055" expanded="true" signature="87:304" ph="{...}" />
-            <marker date="1541180339055" expanded="true" signature="115:177" ph="{...}" />
-            <marker date="1541180339055" expanded="true" signature="206:302" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="63:971" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="296:352" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="383:702" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="422:555" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="621:696" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="727:846" ph="{...}" />
+            <marker date="1542373565131" expanded="true" signature="882:969" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SceneManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="50">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
-            <marker date="1541185244794" expanded="true" signature="6:54" ph="..." />
-            <marker date="1541185244794" expanded="true" signature="97:156" ph="{...}" />
-            <marker date="1541185244794" expanded="true" signature="200:716" ph="{...}" />
-            <marker date="1541185244794" expanded="true" signature="282:307" ph="{...}" />
-            <marker date="1541185244794" expanded="true" signature="339:714" ph="{...}" />
-            <marker date="1541185244794" expanded="true" signature="393:709" ph="{...}" />
-            <marker date="1541185244794" expanded="true" signature="447:644" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="6:57" ph="..." />
+            <marker date="1542374162347" expanded="true" signature="94:936" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="291:440" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="305:339" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="353:434" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="483:602" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="512:596" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="643:769" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="681:716" ph="{...}" />
+            <marker date="1542374162347" expanded="true" signature="821:934" ph="{...}" />
           </folding>
         </state>
       </provider>

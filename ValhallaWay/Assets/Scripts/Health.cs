@@ -1,9 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class Health : MonoBehaviour
+{
 
+    public TextMeshProUGUI lifeText = new TextMeshProUGUI();
     private float hp;
     [HideInInspector]
     public float maxHP = 10;
@@ -16,21 +18,22 @@ public class Health : MonoBehaviour {
 
         set {
             hp = value;
+            lifeText.text = value.ToString();
         }
     }
 
     public void DealDamage(float damage) {
         if (!isInvencible) {
             StartCoroutine(SetInvencible(1f));
-            hp -= damage;
+            HP -= damage;
         }
     }
 
     public void Heal(float cureAmount) {
-        if(hp + cureAmount > maxHP) {
-            hp = maxHP;
+        if(HP + cureAmount > maxHP) {
+            HP = maxHP;
         } else {
-            hp += cureAmount;
+            HP += cureAmount;
         }
     }
 
@@ -38,6 +41,5 @@ public class Health : MonoBehaviour {
         isInvencible = true;
         yield return new WaitForSeconds(time);
         isInvencible = false;
-
     }
 }
