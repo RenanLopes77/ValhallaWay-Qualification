@@ -3,6 +3,10 @@
 public class JumpController : MonoBehaviour
 {
     public bool DoubleJumpEnabled;
+
+    public float testeX = 0;
+    public float testeY = 0;
+    
     [HideInInspector]
     public float JumpSpeed;
     
@@ -38,7 +42,14 @@ public class JumpController : MonoBehaviour
         rb2d.AddForce(new Vector2(0, JumpSpeed));
     }
 
-    public void ArrivedOnGround() {
+    public void KnockBack(float force)
+    {
+        rb2d.velocity = new Vector2(0, 0);
+        rb2d.AddForce(new Vector2(testeX, testeY));
+    }
+
+    public void ArrivedOnGround() 
+    {
         onGround = true;
         canJump = true;
         canDoubleJump = false;
