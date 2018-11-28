@@ -23,7 +23,14 @@ public class SceneManager : MonoBehaviour {
 			if (sceneSelector.name != Utils.ScenesNames.Null)
 			{
 				sceneSelector.button.onClick.AddListener (delegate () {
-					UnityEngine.SceneManagement.SceneManager.LoadScene (Enum.GetName(typeof(Utils.ScenesNames), sceneSelector.name));
+					if (sceneSelector.name == Utils.ScenesNames.Exit)
+					{
+						Application.Quit();
+					}
+					else
+					{
+						UnityEngine.SceneManagement.SceneManager.LoadScene (Enum.GetName(typeof(Utils.ScenesNames), sceneSelector.name));
+					}
 				});
 			} else {
 				Debug.LogError("Button without scene name");
