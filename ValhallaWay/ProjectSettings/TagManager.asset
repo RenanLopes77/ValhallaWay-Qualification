@@ -8,6 +8,7 @@ TagManager:
   - Vine
   - Hazard
   - Health
+  - Death
   layers:
   - Default
   - TransparentFX
