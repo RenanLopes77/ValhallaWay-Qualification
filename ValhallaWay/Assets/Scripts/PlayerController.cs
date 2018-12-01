@@ -30,33 +30,37 @@ public class PlayerController : CustomCharacterController
         health.HP = HP;
         health.maxHP = HP;
     }
-
-	void Start () {
-		
-	}
 	
 	void Update ()
 	{
-        if (input.IsJumpPressed())
+		if (health.isDead() == false)
 		{
-			if (movement.IsClimbing)
+			if (input.IsJumpPressed())
 			{
-				movement.IsClimbing = false;
+				if (movement.IsClimbing)
+				{
+					movement.IsClimbing = false;
+				}
+				else
+				{
+					jump.PerformJump();
+				}
 			}
-			else
-			{
-				jump.PerformJump();
-			}
+			movement.Move(input.GetDirection());
+			base.UpdateAnimationDirection();
+			base.UpdateAnimatorSpeed(movement.GetCurrentSpeed());
 		}
-		movement.Move(input.GetDirection());
-        base.UpdateAnimationDirection();
-        base.UpdateAnimatorSpeed(movement.GetCurrentSpeed());
     }
         
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.transform.CompareTag("Hazard")) {
             health.DealDamage(collision.transform.GetComponent<HealthAssist>().Value);
-        }
+	        jump.KnockBack(1000);
+        } 
+        else if (collision.transform.CompareTag("Death"))
+	    {
+		    health.Kill();
+	    }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

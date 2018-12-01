@@ -13,6 +13,7 @@ public static class Utils {
     {
         Null,
         Credits,
+        Exit,
         MainMenu,
         Midgard,
         Settings,
