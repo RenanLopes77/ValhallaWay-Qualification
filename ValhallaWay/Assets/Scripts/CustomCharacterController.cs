@@ -32,4 +32,14 @@ public class CustomCharacterController : MonoBehaviour {
     public void UpdateAnimatorSpeed(float speed) {
         anim.SetFloat("x-speed", speed);
     }
+
+	public void AttackAnimation()
+	{
+		anim.SetTrigger("Attack");
+	}
+
+	public void JumpAnimation()
+	{
+		anim.SetTrigger("Jump");
+	}
 }

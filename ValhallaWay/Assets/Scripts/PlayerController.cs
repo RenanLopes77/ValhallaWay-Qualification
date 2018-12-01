@@ -43,12 +43,16 @@ public class PlayerController : CustomCharacterController
 				}
 				else
 				{
+					JumpAnimation();
 					jump.PerformJump();
 				}
+			} else if (input.IsAttackPressed())
+			{
+				AttackAnimation();
 			}
 			movement.Move(input.GetDirection());
-			base.UpdateAnimationDirection();
-			base.UpdateAnimatorSpeed(movement.GetCurrentSpeed());
+			UpdateAnimationDirection();
+			UpdateAnimatorSpeed(movement.GetCurrentSpeed());
 		}
     }
         
