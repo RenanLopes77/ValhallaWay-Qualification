@@ -7,10 +7,10 @@ public class EnemyController : MonoBehaviour
 	private int curNode;
 
 	void Update () {
-		EnemyMove();
+		Movement();
 	}
 
-	public void EnemyMove()
+	private void Movement()
 	{
 		transform.position = Vector2.MoveTowards (transform.position, nodes [curNode].position, speed * Time.deltaTime);
 		if (Vector2.Distance(transform.position, nodes[curNode].position) < 0.2f){

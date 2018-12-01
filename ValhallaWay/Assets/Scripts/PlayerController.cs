@@ -75,7 +75,7 @@ public class PlayerController : CustomCharacterController
             health.Heal(other.transform.GetComponent<HealthAssist>().Value);
             Destroy(other.gameObject);
         } 
-        else if (other.transform.CompareTag("Enemy"))
+        else if (other.transform.CompareTag("EnemyWeapon"))
         {
 	        health.DealDamage(other.transform.GetComponent<HealthAssist>().Value);
 	        jump.KnockBack(1000);
