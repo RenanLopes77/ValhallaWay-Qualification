@@ -9,6 +9,7 @@ TagManager:
   - Hazard
   - Health
   - Death
+  - Enemy
   layers:
   - Default
   - TransparentFX

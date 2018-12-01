@@ -20,6 +20,7 @@
           <e p="AnimationFlip.cs" t="Include" />
           <e p="Climb.cs" t="Include" />
           <e p="CustomCharacterController.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
           <e p="GroundCheck.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HealthAssist.cs" t="Include" />
