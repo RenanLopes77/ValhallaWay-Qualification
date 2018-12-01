@@ -5,13 +5,16 @@ using UnityEngine;
 public class InputController {
 	public Vector2 GetDirection()
 	{
-		float hAxis = Input.GetAxis("Horizontal");
-		float vAxis = Input.GetAxis("Vertical");	
-		return new Vector2(hAxis, vAxis);
+		return new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 	}
 
 	public bool IsJumpPressed()
 	{
 		return Input.GetButtonDown("Jump");
+	}
+
+	public bool IsAttackPressed()
+	{
+		return Input.GetButtonDown("Fire1");
 	}
 }
