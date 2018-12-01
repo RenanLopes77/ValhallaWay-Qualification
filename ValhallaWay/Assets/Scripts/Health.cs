@@ -30,9 +30,6 @@ public class Health : MonoBehaviour
     }
 
     public void DealDamage(float damage) {
-        Debug.Log("*********damage*********");
-        Debug.Log(damage);
-        Debug.Log("****************************");
         if (!isInvencible) {
             StartCoroutine(SetInvencible(1f));
             HP -= damage;
@@ -62,7 +59,6 @@ public class Health : MonoBehaviour
     {
         HP = 0;
         deathScreen.SetActive(true);
-        Debug.Log("CHARACTER IS DEAD");
     }
 
     private IEnumerator SetInvencible(float time) {
