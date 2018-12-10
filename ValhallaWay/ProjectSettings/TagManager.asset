@@ -9,6 +9,8 @@ TagManager:
   - Hazard
   - Health
   - Death
+  - Enemy
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX

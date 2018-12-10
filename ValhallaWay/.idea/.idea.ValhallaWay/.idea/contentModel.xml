@@ -20,6 +20,7 @@
           <e p="AnimationFlip.cs" t="Include" />
           <e p="Climb.cs" t="Include" />
           <e p="CustomCharacterController.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
           <e p="GroundCheck.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HealthAssist.cs" t="Include" />
@@ -68,6 +69,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="WeaponController.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

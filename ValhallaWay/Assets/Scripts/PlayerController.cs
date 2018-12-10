@@ -46,7 +46,8 @@ public class PlayerController : CustomCharacterController
 					JumpAnimation();
 					jump.PerformJump();
 				}
-			} else if (input.IsAttackPressed())
+			} 
+			else if (input.IsAttackPressed())
 			{
 				AttackAnimation();
 			}
@@ -56,21 +57,28 @@ public class PlayerController : CustomCharacterController
 		}
     }
         
-    private void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.transform.CompareTag("Hazard")) {
-            health.DealDamage(collision.transform.GetComponent<HealthAssist>().Value);
+    private void OnCollisionEnter2D(Collision2D other) {
+        if (other.transform.CompareTag("Hazard")) 
+        {
+            health.DealDamage(other.transform.GetComponent<HealthAssist>().Value);
 	        jump.KnockBack(1000);
         } 
-        else if (collision.transform.CompareTag("Death"))
+        else if (other.transform.CompareTag("Death"))
 	    {
 		    health.Kill();
 	    }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if (other.transform.CompareTag("Health")) {
+        if (other.transform.CompareTag("Health")) 
+        {
             health.Heal(other.transform.GetComponent<HealthAssist>().Value);
             Destroy(other.gameObject);
+        } 
+        else if (other.transform.CompareTag("EnemyWeapon"))
+        {
+	        health.DealDamage(other.transform.GetComponent<HealthAssist>().Value);
+	        jump.KnockBack(1000);
         }
     }
 }
