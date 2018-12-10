@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 [Serializable]
@@ -11,7 +12,7 @@ public class SceneSelector
 
 public class SceneManager : MonoBehaviour {
 
-	public SceneSelector[] sceneSelectors = new SceneSelector[0];
+	public SceneSelector[] SceneSelectors = new SceneSelector[0];
 
 	void Start () {
 		setSceneButtons();
@@ -19,7 +20,7 @@ public class SceneManager : MonoBehaviour {
 
 	public void setSceneButtons()
 	{
-		Array.ForEach (sceneSelectors, sceneSelector => {
+		Array.ForEach (SceneSelectors, sceneSelector => {
 			if (sceneSelector.name != Utils.ScenesNames.Null)
 			{
 				sceneSelector.button.onClick.AddListener (delegate () {

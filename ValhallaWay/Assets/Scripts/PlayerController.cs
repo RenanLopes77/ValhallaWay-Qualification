@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : CustomCharacterController
 {
@@ -15,6 +16,10 @@ public class PlayerController : CustomCharacterController
 
     [Header("Health")]
     public float HP;
+	
+	[Header("Checkpoint")]
+    public GameObject LastCheckpoint;
+	public Button LastCheckpointBtn;
 
 #pragma warning disable CS0108 // O membro oculta o membro herdado; palavra-chave new ausente
     private void Awake()
@@ -29,6 +34,8 @@ public class PlayerController : CustomCharacterController
         jump.JumpSpeed = JumpingSpeed;
         health.HP = HP;
         health.maxHP = HP;
+	    
+	    SetLastCheckpoint();
     }
 	
 	void Update ()
@@ -56,6 +63,15 @@ public class PlayerController : CustomCharacterController
 			UpdateAnimatorSpeed(movement.GetCurrentSpeed());
 		}
     }
+
+	public void SetLastCheckpoint()
+	{
+		LastCheckpointBtn.onClick.AddListener(delegate
+		{
+			gameObject.transform.position = LastCheckpoint.transform.position;
+			health.Save();
+		});
+	}
         
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.transform.CompareTag("Hazard")) 

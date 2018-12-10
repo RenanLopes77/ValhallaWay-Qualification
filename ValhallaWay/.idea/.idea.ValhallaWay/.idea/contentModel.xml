@@ -18,6 +18,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AnimationFlip.cs" t="Include" />
+          <e p="Checkpoint.cs" t="Include" />
           <e p="Climb.cs" t="Include" />
           <e p="CustomCharacterController.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
@@ -35,6 +36,7 @@
             <e p="SceneManager.cs" t="Include" />
             <e p="Utils.cs" t="Include" />
           </e>
+          <e p="WeaponController.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
@@ -69,7 +71,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="WeaponController.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

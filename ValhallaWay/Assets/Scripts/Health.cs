@@ -61,6 +61,12 @@ public class Health : MonoBehaviour
         deathScreen.SetActive(true);
     }
 
+    public void Save()
+    {
+        HP = maxHP;
+        deathScreen.SetActive(false);
+    }
+
     private IEnumerator SetInvencible(float time) {
         isInvencible = true;
         yield return new WaitForSeconds(time);
