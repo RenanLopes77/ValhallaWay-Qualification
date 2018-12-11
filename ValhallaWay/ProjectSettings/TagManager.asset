@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - EnemyWeapon
   - Axe
+  - HunterEnemy
   layers:
   - Default
   - TransparentFX
