@@ -4,6 +4,8 @@ using UnityEngine;
 public class OverWorldNode : MonoBehaviour {
 
     public List<OverWorldNode> linkedNodes;
+    public Utils.ScenesNames SceneName;
+    public bool Active;
     OverWorldNode [] directions;
     [Header("Directions")]
     public OverWorldNode UP;

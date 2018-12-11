@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class OWAvatarController : MonoBehaviour {
 
@@ -17,9 +18,14 @@ public class OWAvatarController : MonoBehaviour {
     private void Update() {
         if (moving) {
             MoveAvatar();
-        } else {
+        } 
+        else if (Input.GetButtonDown("Jump") || Input.GetButtonDown("Submit"))
+        {
+            SelectWorld();
+        } 
+        else {
             GetDirectionPressed();
-        }
+        } 
     }
 
     private void GetDirectionPressed()
@@ -45,6 +51,14 @@ public class OWAvatarController : MonoBehaviour {
                 curNode = curNode.DOWN;
             }
         }
+    }
+
+    private void SelectWorld()
+    {
+        if (curNode.Active)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene (Enum.GetName(typeof(Utils.ScenesNames), curNode.SceneName));
+        } 
     }
 
     private void MoveAvatar()
