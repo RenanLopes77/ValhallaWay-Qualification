@@ -55,6 +55,10 @@ public class OWAvatarController : MonoBehaviour {
 
     private void SelectWorld()
     {
+        Debug.Log("*********curNode*********");
+        Debug.Log(curNode);
+        Debug.Log(Enum.GetName(typeof(Utils.ScenesNames), curNode.SceneName));
+        Debug.Log("****************************");
         if (curNode.Active)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene (Enum.GetName(typeof(Utils.ScenesNames), curNode.SceneName));

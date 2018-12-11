@@ -17,5 +17,6 @@ public static class Utils {
         MainMenu,
         Midgard,
         Settings,
+        Yggdrasil
     }
 }

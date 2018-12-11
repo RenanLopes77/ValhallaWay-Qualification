@@ -536,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneSelectors:
   - button: {fileID: 232261108}
-    name: 4
+    name: 6
   - button: {fileID: 778307817}
     name: 1
   - button: {fileID: 202120176}
