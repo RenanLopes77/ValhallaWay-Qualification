@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OWAvatarController : MonoBehaviour {
 
@@ -11,42 +9,50 @@ public class OWAvatarController : MonoBehaviour {
     bool moving = false;
     Vector3 destination;
 
-    public void MoveAvatar(OverWorldNode node) {
+    public void SetAvatarDestination(OverWorldNode node) {
         moving = true;
         destination = node.gameObject.transform.position;
     }
 
     private void Update() {
         if (moving) {
-            avatarN0.transform.position = Vector3.MoveTowards(avatarN0.transform.position, destination, avatarN0Speed * Time.deltaTime);
-            if(Vector3.Distance(avatarN0.transform.position, destination) <= 0.1f) {
-                avatarN0.transform.position = destination;
-                moving = false;
-            }
+            MoveAvatar();
         } else {
-            if (Input.GetAxisRaw("Horizontal") < 0) { // esquerda
-                if (curNode.CanMoveTo(Utils.Direction.LEFT)) {
-                    MoveAvatar(curNode.LEFT);
-                    curNode = curNode.LEFT;
-                }
-            } else if (Input.GetAxisRaw("Horizontal") > 0) { // Direita
-                if (curNode.CanMoveTo(Utils.Direction.RIGHT)) {
-                    MoveAvatar(curNode.RIGHT);
-                    curNode = curNode.RIGHT;
-                }
-            } else if (Input.GetAxisRaw("Vertical") > 0) { // Cima
-                if (curNode.CanMoveTo(Utils.Direction.UP)) {
-                    MoveAvatar(curNode.UP);
-                    curNode = curNode.UP;
-                }
-            } else if (Input.GetAxisRaw("Vertical") < 0) { // Baixo
-                if (curNode.CanMoveTo(Utils.Direction.DOWN)) {
-                    MoveAvatar(curNode.DOWN);
-                    curNode = curNode.DOWN;
-                }
+            GetDirectionPressed();
+        }
+    }
+
+    private void GetDirectionPressed()
+    {
+        if (Input.GetAxisRaw("Horizontal") < 0) { // LEFT
+            if (curNode.CanMoveTo(Utils.Direction.LEFT)) {
+                SetAvatarDestination(curNode.LEFT);
+                curNode = curNode.LEFT;
+            }
+        } else if (Input.GetAxisRaw("Horizontal") > 0) { // RIGHT
+            if (curNode.CanMoveTo(Utils.Direction.RIGHT)) {
+                SetAvatarDestination(curNode.RIGHT);
+                curNode = curNode.RIGHT;
+            }
+        } else if (Input.GetAxisRaw("Vertical") > 0) { // UP
+            if (curNode.CanMoveTo(Utils.Direction.UP)) {
+                SetAvatarDestination(curNode.UP);
+                curNode = curNode.UP;
+            }
+        } else if (Input.GetAxisRaw("Vertical") < 0) { // DOWN
+            if (curNode.CanMoveTo(Utils.Direction.DOWN)) {
+                SetAvatarDestination(curNode.DOWN);
+                curNode = curNode.DOWN;
             }
         }
     }
 
-    
+    private void MoveAvatar()
+    {
+        avatarN0.transform.position = Vector3.MoveTowards(avatarN0.transform.position, destination, avatarN0Speed * Time.deltaTime);
+        if(Vector3.Distance(avatarN0.transform.position, destination) <= 0.1f) {
+            avatarN0.transform.position = destination;
+            moving = false;
+        }
+    }
 }
