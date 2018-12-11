@@ -11,6 +11,7 @@ TagManager:
   - Death
   - Enemy
   - EnemyWeapon
+  - Axe
   layers:
   - Default
   - TransparentFX

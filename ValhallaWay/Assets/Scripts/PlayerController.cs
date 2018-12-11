@@ -8,6 +8,7 @@ public class PlayerController : CustomCharacterController
 
 	private InputController input;
 	private JumpController jump;
+	private bool hasAxe = false;
 
     [Header("Speed Variables")]
     public float WalkingSpeed;
@@ -54,7 +55,7 @@ public class PlayerController : CustomCharacterController
 					jump.PerformJump();
 				}
 			} 
-			else if (input.IsAttackPressed())
+			else if (input.IsAttackPressed() && hasAxe)
 			{
 				AttackAnimation();
 			}
@@ -95,6 +96,11 @@ public class PlayerController : CustomCharacterController
         {
 	        health.DealDamage(other.transform.GetComponent<HealthAssist>().Value);
 	        jump.KnockBack(1000);
+        }
+        else if (other.transform.CompareTag("Axe"))
+        {
+	        hasAxe = true;
+	        Destroy(other.gameObject);
         }
     }
 }
