@@ -54,14 +54,14 @@ public class Movement : MonoBehaviour
 		if (isClimbing)
 		{
 			rb2d.velocity = new Vector2(
-				direction.x * ClimbSpeed * Time.deltaTime,
-				direction.y * ClimbSpeed * Time.deltaTime
+				direction.x * ClimbSpeed * Time.fixedDeltaTime,
+				direction.y * ClimbSpeed * Time.fixedDeltaTime
 			);
 		}
 		else
 		{
 			rb2d.velocity = new Vector2(
-				direction.x * Speed * Time.deltaTime,
+				direction.x * Speed * Time.fixedDeltaTime,
 				rb2d.velocity.y
 			);	
 		}

@@ -59,11 +59,15 @@ public class PlayerController : CustomCharacterController
 			{
 				AttackAnimation();
 			}
-			movement.Move(input.GetDirection());
-			UpdateAnimationDirection();
-			UpdateAnimatorSpeed(movement.GetCurrentSpeed());
 		}
     }
+
+	private void FixedUpdate()
+	{
+		movement.Move(input.GetDirection());
+		UpdateAnimationDirection();
+		UpdateAnimatorSpeed(movement.GetCurrentSpeed());
+	}
 
 	public void SetLastCheckpoint()
 	{
