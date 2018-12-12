@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Yggdrasil.unity
     guid: ae4e2435e1865724f90e02b90bc05481
+  - enabled: 1
+    path: Assets/Scenes/Thanks.unity
+    guid: e1a718922780e59439cfe3f2a6afd2bf
   m_configObjects: {}
