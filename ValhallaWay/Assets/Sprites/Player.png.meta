@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ad0983fe8e8ac8240a8368f48e1ae962
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "Cabe\xE7a"
+    21300002: Sombrancelha_E
+    21300004: Sombrancelha_D
+    21300006: "Prote\xE7\xE3o_E"
+    21300008: Tronco
+    21300010: "Prote\xE7\xE3o_D"
+    21300012: Bicipes_E
+    21300014: Bicipes_D
+    21300016: "M\xE3o_D"
+    21300018: "Ded\xE3o_D"
+    21300020: Dedos_D
+    21300022: "Antibra\xE7o_D"
+    21300024: "AntiBra\xE7o_E"
+    21300026: Coxa_E
+    21300028: Coxa_D
+    21300030: "M\xE3o_E"
+    21300032: Panturrilha_E
+    21300034: Panturrilha_D
+    21300036: "P\xE9_E"
+    21300038: "P\xE9_D"
+    21300040: "Cabe\xE7a"
+    21300042: Sombracelha_E
+    21300044: Sombrancelha_D
+    21300046: Ombro_E
+    21300048: Tronco
+    21300050: Ombro_D
+    21300052: Bicipes_E
+    21300054: Bicipes_D
+    21300056: "M\xE3o_D"
+    21300058: "Ded\xE3o_D"
+    21300060: Dedos_D
+    21300062: "Antibra\xE7o_D"
+    21300064: "AntiBra\xE7o_E"
+    21300066: Coxa_E
+    21300068: Coxa_D
+    21300070: "M\xE3o_E"
+    21300072: Pantirrilha_E
+    21300074: Panturrilha_D
+    21300076: Pe_E
+    21300078: Pe_D
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cabe\xE7a"
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1724
+        width: 857
+        height: 717
+      alignment: 9
+      pivot: {x: 0.7993693, y: 0.16551304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edf3cc9ba6762b40a2e6cecc25ad2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sombracelha_E
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 2236
+        width: 216
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d5bc8f23d7bfd46b1ae11b23c959ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sombrancelha_D
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 2260
+        width: 169
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846567bb880634d4f8eeec58b542791c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ombro_E
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1198
+        width: 333
+        height: 228
+      alignment: 9
+      pivot: {x: 0.7679822, y: 0.7079286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaebbb6c561ab254cb84087f9ade02b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tronco
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 856
+        width: 641
+        height: 680
+      alignment: 9
+      pivot: {x: 0.6245142, y: 0.20548195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062ccfd2044991438117a2073fa9a1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ombro_D
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1218
+        width: 331
+        height: 236
+      alignment: 9
+      pivot: {x: 0.12929864, y: 0.6063481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583daeb921a6dd94fa1982454a3fe43f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bicipes_E
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 865
+        width: 214
+        height: 324
+      alignment: 9
+      pivot: {x: 0.70850015, y: 0.90453196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3328941e771c54a85532b3e17c0c7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bicipes_D
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 856
+        width: 182
+        height: 342
+      alignment: 9
+      pivot: {x: 0.45403314, y: 0.8832408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012f7de8f1d351b4ab7a276237b103e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xE3o_D"
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 847
+        width: 234
+        height: 202
+      alignment: 9
+      pivot: {x: 0.20206393, y: 0.4585837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20f2dcb8cb5e4e4b8dbaa57be667264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ded\xE3o_D"
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 1034
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d29f89cf3428214388f0d9acdd5c8e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dedos_D
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 872
+        width: 107
+        height: 174
+      alignment: 9
+      pivot: {x: 0.39574966, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bda48e5e5b16f4da02170622d83cbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Antibra\xE7o_D"
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 865
+        width: 201
+        height: 160
+      alignment: 9
+      pivot: {x: 0.13927494, y: 0.48257065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c153abb8bf4ae4d9a1bb4a9ec1c84f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "AntiBra\xE7o_E"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 652
+        width: 192
+        height: 171
+      alignment: 9
+      pivot: {x: 0.2385606, y: 0.7120047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaea19e3353dad46a12ef466a22663d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coxa_E
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 451
+        width: 155
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8419082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4fbccdd64ef04fa0d6cee9e7aa39c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coxa_D
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 451
+        width: 156
+        height: 261
+      alignment: 9
+      pivot: {x: 0.51787627, y: 0.87396216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0ebbb15dbb3884ca0e5faaf0e046e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "M\xE3o_E"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 408
+        width: 235
+        height: 233
+      alignment: 9
+      pivot: {x: 0.2626649, y: 0.72740334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5ebee203383164486aefa1e84c4659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantirrilha_E
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 216
+        width: 155
+        height: 215
+      alignment: 9
+      pivot: {x: 0.4820084, y: 0.8372361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47830edb1ee939342907fccd6bfdeeaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Panturrilha_D
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 216
+        width: 156
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8502068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2f621d20892824eb38995079230f97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pe_E
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 261
+        height: 176
+      alignment: 9
+      pivot: {x: 0.3610999, y: 0.8168957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86c68e76fbd0814e9cb47387d50909e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pe_D
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 0
+        width: 261
+        height: 176
+      alignment: 9
+      pivot: {x: 0.3610999, y: 0.83274055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da31d4dad17a6940bea972b53a1dafb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d3de147ee5db8e54f8a8acbd5e5cbe60
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

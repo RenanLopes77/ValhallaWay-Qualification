@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - Vine
+  - Hazard
+  - Health
+  - Death
+  - Enemy
+  - EnemyWeapon
   layers:
   - Default
   - TransparentFX
